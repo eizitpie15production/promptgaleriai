@@ -51,11 +51,11 @@ const defaultGalleryData = [
     "image": "images/10.jpg",
     "promptText": "Hands in Pockets - Relaxed Authority A hyper-realistic cinematic editorial portrait of the uploaded person (preserve face 100%). He stands tall in all dark moody studio, surrounded by soft drifting smoke under a dramatic spotlight.Outfit:Fit slate-black luxury suit with fit-leg trousers, paired with a slightly unbuttoned white silk shirt. Both hands tucked casually in pockets, shoulders relaxed, confident expression, head tilted slightly upward."
   },
-  // {
-    // "id": 11,
-    // "image": "images/11.jpg",
-    // "promptText": ""
-  // }
+  {
+    "id": 11,
+    "image": "images/11.jpg",
+    "promptText": "A photorealistic 8K stock image of the same young man with the same facial features and hairstyle as the reference. He is sitting sideways on a cube, one arm resting on his knee. Outfit: oversized beige hoodie with matching joggers, paired with sneakers. Background:  solid green color, clean fashion editorial tone."
+  }
 ];
 
 // Fungsi untuk MEMBACA data dari localStorage
