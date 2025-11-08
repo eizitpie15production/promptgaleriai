@@ -55,6 +55,16 @@ const defaultGalleryData = [
     "id": 11,
     "image": "images/11.jpg",
     "promptText": "A photorealistic 8K stock image of the same young man with the same facial features and hairstyle as the reference. He is sitting sideways on a cube, one arm resting on his knee. Outfit: oversized beige hoodie with matching joggers, paired with sneakers. Background:  solid green color, clean fashion editorial tone."
+  },
+  {
+    "id": 12,
+    "image": "images/12.jpg",
+    "promptText": "A full-body studio portrait of a young Asian man, appearing confident and stylish, sitting casually on a rustic wooden backless stool. He is wearing a dark t-shirt under a fitted blue denim jacket, with the sleeves slightly rolled up, and dark grey jeans. His arms are crossed, and he is looking directly at the camera with a friendly, subtle smile. The background is a clean, solid light grey with professional studio lighting setup visible: two large rectangular softboxes with grid diffusers are placed on either side of the subject, and a prominent, bright circular spotlight creates a glowing halo effect behind his head and shoulders, providing a strong rim light. The image has sharp focus, excellent clarity, and a modern, professional aesthetic."
+  },
+  {
+    "id": 13,
+    "image": "images/13.jpg",
+    "promptText": "A full-body studio portrait of a young Asian man, appearing confident and stylish, standing against a vibrant, solid red background. He is dressed in a clean, all-white casual outfit, consisting of a white crewneck sweatshirt and matching white joggers. He is wearing white sneakers and a silver-toned watch on his left wrist. He is looking directly at the camera with a friendly, subtle smile. His posture is relaxed yet stylish, with one leg slightly crossed over the other, giving the composition a dynamic feel. The lighting is soft and even, highlighting the texture of his clothing and creating subtle shadows that give depth to the image. The overall impression is modern, clean, and slightly minimalist, with a strong focus on the subject and his crisp attire against the bold background. The image has sharp focus, excellent clarity, and a professional aesthetic."
   }
 ];
 
