@@ -3,40 +3,59 @@ const STORAGE_KEY = 'myGalleryData';
 const defaultGalleryData = [
   {
     "id": 1,
-    // UBAH BARIS INI:
-    "image": "images/1.jpg", 
+    "image": "images/1.jpg",
     "promptText": "A full-body realistic studio portrait of a male model standing confidently against a clean white background. He wears a black bomber jacket with blue-green and blue-purple accents, loose dark-gray cargo pants with multiple pockets, and white sneakers. The model carries a large black tote bag in one hand while slightly leaning forward with one leg stepping ahead, as if in mid-stride, creating a sense of motion and confidence. The camera is positioned at a low angle, making the subject appear tall and powerful, adding a dynamic and dramatic perspective. His facial expression is neutral yet composed. The lighting is soft and evenly distributed, typical of high-end fashion studio photography. Captured with a Sony Alpha A7R IV using a 50mm lens, f/4 aperture — ultra-detailed textures, sharp focus on the subject, smooth depth of field, minimalist aesthetic, editorial fashion vibe."
   },
   {
     "id": 2,
-    // UBAH BARIS INI:
     "image": "images/2.jpg",
     "promptText": "A high-quality studio portrait of a stylish young man sitting casually on the floor. He wears a black fleece jacket, beige loose pants, black sneakers, and futuristic sunglasses. The scene is lit with soft, diffused studio lighting, creating gentle shadows and a neutral background. The mood feels modern, confident, and fashion-forward, similar to an editorial photo for a streetwear brand. Ultra-realistic photography, 8K detail, shallow depth of field, Sony Alpha camera, cinematic tone."
   },
   {
     "id": 3,
-    // UBAH BARIS INI:
     "image": "images/3.jpg",
     "promptText": "A stylish young man with the same facial features and hairstyle as the attached photo is walking out of a trendy café entrance. He is wearing a loose black t-shirt with a small logo on the chest, loose black cargo pants, black and white sneakers, and a black watch on his left wrist while holding a dark-colored water bottle. The background features a glass door with signage and indoor plants above it, creating a trendy and casual street vibe. A full-body realistic portrait with natural lighting and youthful streetwear style."
   },
   {
     "id": 4,
-    // UBAH BARIS INI:
     "image": "images/4.jpg",
     "promptText": "A full-body realistic studio portrait of a man sitting confidently in a black director's chair. He wears a black biker leather jacket, a white tank top, black jeans, and cream canvas sneakers. Clean, plain gray studio background."
   },
   {
     "id": 5,
-    // UBAH BARIS INI:
     "image": "images/5.jpg",
     "promptText": "A full-body realistic studio portrait of a man sitting confidently in a black director's chair. He wears a black biker leather jacket, a white tank top, black jeans, and cream canvas sneakers. Clean, plain gray studio background."
   },
   {
     "id": 6,
-    // UBAH BARIS INI:
     "image": "images/6.jpg",
     "promptText": "Potret profesional seorang laki laki muda indonesia berambut seperti pada gambar ini, mengenakan jas hitam. Ia berdiri dengan tangan disilangkan dan tersenyum tipis, menatap lurus ke arah penonton. Latar belakangnya berwarna merah pekat dengan efek lampu sorot melingkar di belakang kepalanya."
   },
+  {
+    "id": 7,
+    "image": "images/7.jpg",
+    "promptText": "Potret realistis berkualitas tinggi seorang pemuda Indonesia berambut pendek gelap, duduk di tangga berwarna terang. Ia mengenakan kemeja lengan panjang bergaris hitam, celana panjang abu-abu, dan sepatu kets putih. Pandangannya tertuju ke atas dan ke kiri, dengan ekspresi kontemplatif. Pemandangan tersebut diterangi oleh sinar matahari yang kuat dan hangat yang datang dari kanan, menciptakan bayangan yang jelas di dinding di belakangnya dan menonjolkan lekuk wajah dan tubuhnya. Suasana keseluruhannya penuh perhatian dan tenteram, dengan kualitas sinematik. Foto ini diambil dengan kamera profesional, 8K, ultra-realistis."
+  },
+  {
+    "id": 8,
+    "image": "images/8.jpg",
+    "promptText": "Potret seorang pemuda karismatik, percaya diri, dan energik dengan rambut acak-acakan, duduk santai. Mengenakan kemeja biru lengan digulung, dasi bergaris longgar, celana abu-abu, dan jas tersampir di bahu. Ia berpose 'finger gun' ke kamera dengan jam tangan hitam. Latar belakang studio biru kehijauan, pencahayaan lembut depan, sudut rendah, DOF dangkal agak terlihat sedikit jauh."
+  },
+  {
+    "id": 9,
+    "image": "images/9.jpg",
+    "promptText": "A high-resolution full-body studio portrait of a young Asian man in a sharp black suit and tie, professional corporate style, sharp focus, on a solid dark gray background"
+  },
+  {
+    "id": 10,
+    "image": "images/10.jpg",
+    "promptText": "Hands in Pockets - Relaxed Authority A hyper-realistic cinematic editorial portrait of the uploaded person (preserve face 100%). He stands tall in all dark moody studio, surrounded by soft drifting smoke under a dramatic spotlight.Outfit:Fit slate-black luxury suit with fit-leg trousers, paired with a slightly unbuttoned white silk shirt. Both hands tucked casually in pockets, shoulders relaxed, confident expression, head tilted slightly upward."
+  },
+  // {
+    // "id": 11,
+    // "image": "images/11.jpg",
+    // "promptText": ""
+  // }
 ];
 
 // Fungsi untuk MEMBACA data dari localStorage
