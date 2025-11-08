@@ -28,7 +28,7 @@ const defaultGalleryData = [
   {
     "id": 5,
     // UBAH BARIS INI:
-    "image": "images/4.jpg",
+    "image": "images/5.jpg",
     "promptText": "A full-body realistic studio portrait of a man sitting confidently in a black director's chair. He wears a black biker leather jacket, a white tank top, black jeans, and cream canvas sneakers. Clean, plain gray studio background."
   },
   {
