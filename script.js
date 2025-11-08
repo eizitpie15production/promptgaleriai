@@ -78,9 +78,65 @@ const defaultGalleryData = [
   },
   {
     "id": 16,
-    "image": "16.jpg",
-	"promptText": "Sebuah potret seorang pria muda Asia yang duduk santai di kursi lipat hitam di area luar kafe pada malam hari. Dia mengenakan kaus bergaya jersey berwarna biru tua dan krem dengan tulisan \"MHA\" berwarna emas di bagian dada, celana jeans abu-abu longgar, dan sepatu kets putih. Kakinya disilangkan dengan santai, dan dia melihat langsung ke kamera dengan ekspresi serius namun percaya diri.\nDi latar belakang, terlihat orang-orang duduk di meja kafe di bawah payung besar berwarna krem yang terbuka. Sebuah tanda neon kuning bertuliskan \"VAYOU coffee\" bersinar terang di dinding kafe, menjadi fokus latar belakang. Di atasnya, terlihat lampu dinding yang menyala. Di sisi kiri gambar, sebuah cangkir minuman dingin dengan sedotan terlihat di meja. Pencahayaan di kafe menciptakan suasana malam yang nyaman dengan cahaya dari tanda neon dan lampu."
+    "image": "images/16.jpg",
+    "promptText": "A full-shot portrait of an adult man with light skin, wearing a blue and white short-sleeved shirt with the letters MHA on it, light gray jeans, and white sneakers. He is seated on a black chair with his legs crossed, hands clasped, and is looking directly at the camera with a neutral expression. He has short, dark hair. Behind him is a brick wall with a bright neon sign that reads VAYOU coffee. Other patrons are blurred in the background, seated at tables under umbrellas. There is a drink on the table to the man's left. The lighting is dim with a warm glow from the neon sign and other lights."
+  },
+  {
+    "id": 17,
+    "image": "images/17.jpg",
+    "promptText": "Seorang pria muda Asia berpose di depan mobil Jeep Wrangler berwarna oranye cerah. Ia mengenakan hoodie hitam polos, celana panjang abu-abu, dan sepatu sneakers putih. Pria ini berkacamata, dengan rambut hitam pendek tersisir rapi. Ia berdiri tegak dengan tangan terkunci di depan, menghadap kamera dengan senyum tipis. Latar belakang menunjukkan pemandangan pegunungan atau bukit yang berkabut, dengan tanah gelap di bagian depan. Komposisi foto vertikal, dengan fokus utama pada pria dan mobil"
+  },
+  {
+    "id": 18,
+    "image": "images/18.jpg",
+    "promptText": "Seorang pria muda Asia berbadan agak berisi dengan rambut hitam pendek rapi dan memakai kacamata hitam berdiri di dalam sebuah kafe. Ia mengenakan kemeja lengan panjang berwarna hijau army yang digulung di bagian lengan, celana panjang putih, dan sepatu sneakers putih. Tangan kanannya memegang segelas minuman kopi dingin, sementara tangan kirinya dimasukkan ke dalam saku celana. Ia memakai jam tangan berwarna hitam. Pria tersebut menghadap sedikit ke kanan kamera dengan ekspresi datar. Latar belakang menunjukkan interior kafe yang minimalis dengan rak kayu berisi beberapa hiasan dan pajangan, serta sebuah etalase kaca berisi makanan. Komposisi foto vertikal, dengan fokus utama pada pria tersebut."
+  },
+  {
+    "id": 19,
+    "image": "images/19.jpg",
+    "promptText": "Seorang pria muda Asia berbadan atletis dengan rambut hitam pendek rapi. Ia mengenakan jaket denim biru tua, kaus hitam polos, celana panjang hitam, dan jam tangan hitam. Pria tersebut menyilangkan kedua tangannya di depan dada, menghadap lurus ke kamera dengan senyum tipis. Latar belakang menunjukkan interior rumah yang modern dengan jendela besar yang menampilkan pemandangan kota di malam hari. Komposisi foto vertikal, dengan fokus utama pada pria tersebut."
+  },
+  {
+    "id": 20,
+    "image": "images/20.jpg",
+    "promptText": "Seorang pria Asia dan berambut hitam dengan gaya rambut modern sedang duduk di kafe. Dia mengenakan kaus putih polos, celana pendek putih, dan sepatu kets berwarna terang. Dia memegang cangkir kopi berwarna abu-abu dengan tangan kirinya dan melihat ke samping dengan ekspresi termenung. foto dipotret dari luar dengan memfokuskan menembus kaca bening didalam kafe terlihat Latar belakang menunjukkan interior kafe yang remang-remang dengan meja dan kursi kayu, serta beberapa orang lainnya yang tidak fokus. Komposisi foto vertikal, dengan pantulan cahaya samar di bagian atas gambar."
+  },
+  {
+    "id": 21,
+    "image": "images/21.jpg",
+    "promptText": "Seorang pria Asia berambut hitam dengan gaya rambut rapi dan ekspresi wajah yang tenang sedang duduk di kursi gaming kulit hitam. Ia mengenakan kaus sepak bola merah dengan logo Manchester United di bagian depan, celana pendek hitam, dan sepatu kets putih. Kaki kanannya menyilang di atas kaki kirinya, dan tangannya diletakkan di pangkuannya. Ia berada di dalam ruangan yang dihiasi dengan tema Manchester United FC. Dinding di belakangnya berwarna merah cerah dengan logo besar Manchester United FC di tengahnya. Di bawah logo, terdapat meja gaming hitam dengan monitor komputer yang menampilkan pertandingan sepak bola. Di kedua sisi meja, ada rak-rak putih yang penuh dengan piala emas dan bingkai foto. Di lantai, terdapat karpet bulat berwarna merah dengan logo Manchester United FC yang besar. Pencahayaan ruangan terang dan merata."
+  },
+  {
+    "id": 22,
+    "image": "images/22.jpg",
+    "promptText": "Seorang pria Asia dengan gaya modern yang keren berdiri di tengah gambar, menatap ke arah samping. Ia mengenakan setelan jas berwarna cokelat muda, kaus putih, celana panjang putih, dan sepatu putih, dilengkapi dengan kacamata hitam. Di latar belakang, ada gambar dirinya yang lebih redup dan samar-samar dengan kacamata hitam yang sama, dikelilingi oleh cincin neon berwarna kuning yang terang, memberikan kesan futuristik dan dramatis pada keseluruhan gambar. Cahaya redup menyorotinya dari depan."
+  },
+  {
+    "id": 23,
+    "image": "images/23.jpg",
+    "promptText": "Seorang model pria Asia dengan potongan rambut hitam pendek yang rapi, mengenakan setelan kasual monokrom putih yang bergaya. Ia memakai kaus lengan panjang putih berukuran besar dengan detail jahitan yang halus, dan celana pendek putih yang serasi, menonjolkan kulitnya yang kecokelatan. Sepatu kets putih klasik melengkapi penampilannya. Ia sedang duduk santai di atas kursi atau balok berwarna hijau muda yang serasi dengan latar belakang studio. Salah satu tangannya memegang kacamata hitam berbingkai tebal yang modern, seolah baru saja menurunkannya sedikit, atau hendak memakainya. Kacamata hitam ini memberikan sentuhan misterius dan keren pada ekspresinya."
+  },
+  {
+    "id": 24,
+    "image": "images/24.jpg",
+    "promptText": "Seorang pria muda Asia duduk di tangga dalam ruangan dengan cahaya keras dari jendela yang menciptakan bayangan yang tajam. Dia mengenakan sweater hitam lengan panjang dan celana panjang abu-abu gelap, dipasangkan dengan sepatu kets putih tebal. Rambutnya hitam dan ditata rapi. Dia melihat ke atas dan ke samping, dengan ekspresi merenung. Latar belakangnya adalah dinding abu-abu terang, dan bayangan dirinya terlihat di dinding di sebelah kanannya. Suasana keseluruhan memiliki kualitas yang tenang dan introspektif."
+  },
+  {
+    "id": 25,
+    "image": "images/25.jpg",
+    "promptText": "Seorang pria Indonesia yang modis mengenakan setelan hitam yang elegan, kemeja hitam, dan sepatu pantofel kulit hitam. Ia memakai kacamata hitam gaya dan jam tangan emas. Pria itu duduk dengan postur santai namun percaya diri di kursi hitam minimalis, memegang cangkir kopi putih sekali pakai di tangan kirinya. Ia memandang ke samping, dengan ekspresi tenang dan berkelas. Pencahayaan lembut menciptakan bayangan yang menarik di dinding cokelat muda di belakangnya, menyoroti profilnya dan menambahkan kesan dramatis pada potretnya. Foto ini memiliki estetika yang bersih dan modern, dengan fokus pada gaya dan komposisi."
+  },
+  {
+    "id": 26,
+    "image": "images/26.jpg",
+    "promptText": "Foto seorang pria asia dengan kulit coklat muda dan rambut hitam pendek, mengenakan kaus merah marun polos, celana pendek hitam, dan sepatu kets putih dengan kaus kaki putih. Dia memegang sebotol air di tangan kirinya. Dia berjalan keluar dari pintu kaca ganda. Pencahayaan lembut, siang hari."
+  },
+  {
+    "id": 27,
+    "image": "images/27.jpg",
+    "promptText": "Buat foto seorang pria wajah dan rambut sama persis seperti di foto , berat badan 70 kg, tinggi 168 cm . sedang berlari santai, dengan latar belakang stadion . Ia mengenakan kaos sport warna hitam dan celana panjang olahraga warna hitam . Ia memakai sepatu lari merek nike berwarna hitam dengan aksen biru. Pria tersebut berpose jogging dengan pose candid Ia memegang handphone android , memakai tws dan memakai smartwatch dengan strap warna hitam di pergelangan tangan kiri. Latar belakang dipenuhi vegetasi hijau cerah, pohon-pohon besar, dan sedikit terlihat arena stadion dan pencahayaan bokeh hangat dari lampu taman. Langit sebagian terlihat di kanan atas gambar, menandakan suasana pagi atau sore dengan pencahayaan alami yang lembut dan seimbang. Jalan yang dilalui di pinggir trotoar yang hitam putih di pinggirannya dengan jalanan cor semen . Terdapat beberapa orang lain yang sedang jogging Spesifikasi kamera dan aspek teknis: • Tipe kamera: DSLR profesional atau mirrorless full-frame (contoh: Sony A7R IV atau Canon EOS R5) • Lensa: 85mm f/1.8 (untuk menghasilkan depth of field dangkal dan latar belakang bokeh) • Aperture: f/1.8 (untuk latar belakang blur dan fokus tajam pada subjek) • Shutter speed: 1/1000s (untuk membekukan gerakan saat berjalan) • ISO: 200 (pencahayaan alami yang cukup, menjaga kualitas tanpa noise) • White balance: Daylight • Fokus: Fokus otomatis tepat pada wajah subjek • Pencahayaan: Natural lighting, kemungkinan diambil saat golden hour pagi/sore Komposisi gambar: • Subjek berada di tengah bingkai dengan ruang ke depan arah gerakan, menciptakan keseimbangan visual. • Sudut pengambilan gambar sejajar dengan tinggi mata (eye-level shot), memberikan kesan alami dan membumi. • Latar belakang blur namun tetap menunjukkan konteks stadion yang hijau dan rapi."
   }
+  
 ];
 
 // Fungsi untuk MEMBACA data dari localStorage
