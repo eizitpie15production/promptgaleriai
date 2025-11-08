@@ -49,22 +49,37 @@ const defaultGalleryData = [
   {
     "id": 10,
     "image": "images/10.jpg",
-    "promptText": "Hands in Pockets - Relaxed Authority A hyper-realistic cinematic editorial portrait of the uploaded person (preserve face 100%). He stands tall in all dark moody studio, surrounded by soft drifting smoke under a dramatic spotlight.Outfit:Fit slate-black luxury suit with fit-leg trousers, paired with a slightly unbuttoned white silk shirt. Both hands tucked casually in pockets, shoulders relaxed, confident expression, head tilted slightly upward."
+    "promptText": "A trendy and stylish studio portrait of a young Asian man, wearing round-frame eyeglasses, sitting casually on a bright yellow cubic stool. He is dressed in a vibrant blue and yellow letterman jacket with 'Vayou' embroidered on the chest and a large 'V' on the opposite side, over a plain white t-shirt, and khaki-colored jogger-style pants. He is holding a white takeaway coffee cup with a dark lid, featuring a subtle logo, in his right hand. He is wearing clean white sneakers. The background is a warm, solid orange color, creating a striking contrast with his outfit. The lighting is soft and even, highlighting the textures of his clothing and the details of his accessories. He looks directly at the camera with a confident and slightly serious expression, embodying a modern, youthful, and urban aesthetic."
   },
   {
     "id": 11,
     "image": "images/11.jpg",
-    "promptText": "A photorealistic 8K stock image of the same young man with the same facial features and hairstyle as the reference. He is sitting sideways on a cube, one arm resting on his knee. Outfit: oversized beige hoodie with matching joggers, paired with sneakers. Background:  solid green color, clean fashion editorial tone."
+    "promptText": "Hands in Pockets - Relaxed Authority A hyper-realistic cinematic editorial portrait of the uploaded person (preserve face 100%). He stands tall in all dark moody studio, surrounded by soft drifting smoke under a dramatic spotlight.Outfit:Fit slate-black luxury suit with fit-leg trousers, paired with a slightly unbuttoned white silk shirt. Both hands tucked casually in pockets, shoulders relaxed, confident expression, head tilted slightly upward."
   },
   {
     "id": 12,
     "image": "images/12.jpg",
-    "promptText": "A full-body studio portrait of a young Asian man, appearing confident and stylish, sitting casually on a rustic wooden backless stool. He is wearing a dark t-shirt under a fitted blue denim jacket, with the sleeves slightly rolled up, and dark grey jeans. His arms are crossed, and he is looking directly at the camera with a friendly, subtle smile. The background is a clean, solid light grey with professional studio lighting setup visible: two large rectangular softboxes with grid diffusers are placed on either side of the subject, and a prominent, bright circular spotlight creates a glowing halo effect behind his head and shoulders, providing a strong rim light. The image has sharp focus, excellent clarity, and a modern, professional aesthetic."
+    "promptText": "A photorealistic 8K stock image of the same young man with the same facial features and hairstyle as the reference. He is sitting sideways on a cube, one arm resting on his knee. Outfit: oversized beige hoodie with matching joggers, paired with sneakers. Background:  solid green color, clean fashion editorial tone."
   },
   {
     "id": 13,
     "image": "images/13.jpg",
+    "promptText": "A full-body studio portrait of a young Asian man, appearing confident and stylish, sitting casually on a rustic wooden backless stool. He is wearing a dark t-shirt under a fitted blue denim jacket, with the sleeves slightly rolled up, and dark grey jeans. His arms are crossed, and he is looking directly at the camera with a friendly, subtle smile. The background is a clean, solid light grey with professional studio lighting setup visible: two large rectangular softboxes with grid diffusers are placed on either side of the subject, and a prominent, bright circular spotlight creates a glowing halo effect behind his head and shoulders, providing a strong rim light. The image has sharp focus, excellent clarity, and a modern, professional aesthetic."
+  },
+  {
+    "id": 14,
+    "image": "images/14.jpg",
     "promptText": "A full-body studio portrait of a young Asian man, appearing confident and stylish, standing against a vibrant, solid red background. He is dressed in a clean, all-white casual outfit, consisting of a white crewneck sweatshirt and matching white joggers. He is wearing white sneakers and a silver-toned watch on his left wrist. He is looking directly at the camera with a friendly, subtle smile. His posture is relaxed yet stylish, with one leg slightly crossed over the other, giving the composition a dynamic feel. The lighting is soft and even, highlighting the texture of his clothing and creating subtle shadows that give depth to the image. The overall impression is modern, clean, and slightly minimalist, with a strong focus on the subject and his crisp attire against the bold background. The image has sharp focus, excellent clarity, and a professional aesthetic."
+  },
+  {
+    "id": 15,
+    "image": "images/15.jpg",
+    "promptText": "Sebuah studio potret seorang pria muda yang berdiri tegak, memancarkan aura kasual namun stylish. Dia mengenakan hoodie biru muda kebesaran dengan dua garis cokelat horizontal di setiap lengan, celana kargo cokelat yang longgar, dan sepatu kets putih dengan aksen biru dan abu-abu. Rambutnya ditata rapi, dan dia melihat langsung ke kamera dengan ekspresi tenang. Tangannya berada di saku hoodie-nya, menambahkan kesan santai pada penampilannya. Di samping kanannya, ada karakter Squirtle dari Pokémon yang bersinar lembut dengan cahaya biru, tampak seperti efek hologram, berdiri di atas permukaan reflektif yang sama dengan pria tersebut. Seluruh adegan ini berlatar belakang biru muda solid yang seragam, menciptakan suasana yang bersih dan modern. Pencahayaan lembut dan merata, menyoroti tekstur pakaian dan detail karakter Pokémon."
+  },
+  {
+    "id": 16,
+    "image": "16.jpg",
+	"promptText": "Sebuah potret seorang pria muda Asia yang duduk santai di kursi lipat hitam di area luar kafe pada malam hari. Dia mengenakan kaus bergaya jersey berwarna biru tua dan krem dengan tulisan \"MHA\" berwarna emas di bagian dada, celana jeans abu-abu longgar, dan sepatu kets putih. Kakinya disilangkan dengan santai, dan dia melihat langsung ke kamera dengan ekspresi serius namun percaya diri.\nDi latar belakang, terlihat orang-orang duduk di meja kafe di bawah payung besar berwarna krem yang terbuka. Sebuah tanda neon kuning bertuliskan \"VAYOU coffee\" bersinar terang di dinding kafe, menjadi fokus latar belakang. Di atasnya, terlihat lampu dinding yang menyala. Di sisi kiri gambar, sebuah cangkir minuman dingin dengan sedotan terlihat di meja. Pencahayaan di kafe menciptakan suasana malam yang nyaman dengan cahaya dari tanda neon dan lampu."
   }
 ];
 
