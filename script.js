@@ -28,9 +28,15 @@ const defaultGalleryData = [
   {
     "id": 5,
     // UBAH BARIS INI:
-    "image": "images/5.jpg",
-    "promptText": "A high-quality, realistic outdoor portrait of a handsome Asian man in his late twenties, smiling cheerfully and looking directly at the viewer. He wears a black blazer over a light-colored t-shirt and has black, wavy hair. He is wearing white earbuds in his right ear and is gesturing with open hands as if presenting something. The background features modern city buildings, blurred slightly to keep focus on the subject. The lighting is bright and natural, captured with a Canon EOS R5, 85mm lens, f/1.4, ISO 100. The image has a professional, commercial aesthetic."
-  }
+    "image": "images/4.jpg",
+    "promptText": "A full-body realistic studio portrait of a man sitting confidently in a black director's chair. He wears a black biker leather jacket, a white tank top, black jeans, and cream canvas sneakers. Clean, plain gray studio background."
+  },
+  {
+    "id": 6,
+    // UBAH BARIS INI:
+    "image": "images/6.jpg",
+    "promptText": "Potret profesional seorang laki laki muda indonesia berambut seperti pada gambar ini, mengenakan jas hitam. Ia berdiri dengan tangan disilangkan dan tersenyum tipis, menatap lurus ke arah penonton. Latar belakangnya berwarna merah pekat dengan efek lampu sorot melingkar di belakang kepalanya."
+  },
 ];
 
 // Fungsi untuk MEMBACA data dari localStorage
