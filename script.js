@@ -135,6 +135,36 @@ const defaultGalleryData = [
     "id": 27,
     "image": "images/27.jpg",
     "promptText": "Buat foto seorang pria wajah dan rambut sama persis seperti di foto , berat badan 70 kg, tinggi 168 cm . sedang berlari santai, dengan latar belakang stadion . Ia mengenakan kaos sport warna hitam dan celana panjang olahraga warna hitam . Ia memakai sepatu lari merek nike berwarna hitam dengan aksen biru. Pria tersebut berpose jogging dengan pose candid Ia memegang handphone android , memakai tws dan memakai smartwatch dengan strap warna hitam di pergelangan tangan kiri. Latar belakang dipenuhi vegetasi hijau cerah, pohon-pohon besar, dan sedikit terlihat arena stadion dan pencahayaan bokeh hangat dari lampu taman. Langit sebagian terlihat di kanan atas gambar, menandakan suasana pagi atau sore dengan pencahayaan alami yang lembut dan seimbang. Jalan yang dilalui di pinggir trotoar yang hitam putih di pinggirannya dengan jalanan cor semen . Terdapat beberapa orang lain yang sedang jogging Spesifikasi kamera dan aspek teknis: • Tipe kamera: DSLR profesional atau mirrorless full-frame (contoh: Sony A7R IV atau Canon EOS R5) • Lensa: 85mm f/1.8 (untuk menghasilkan depth of field dangkal dan latar belakang bokeh) • Aperture: f/1.8 (untuk latar belakang blur dan fokus tajam pada subjek) • Shutter speed: 1/1000s (untuk membekukan gerakan saat berjalan) • ISO: 200 (pencahayaan alami yang cukup, menjaga kualitas tanpa noise) • White balance: Daylight • Fokus: Fokus otomatis tepat pada wajah subjek • Pencahayaan: Natural lighting, kemungkinan diambil saat golden hour pagi/sore Komposisi gambar: • Subjek berada di tengah bingkai dengan ruang ke depan arah gerakan, menciptakan keseimbangan visual. • Sudut pengambilan gambar sejajar dengan tinggi mata (eye-level shot), memberikan kesan alami dan membumi. • Latar belakang blur namun tetap menunjukkan konteks stadion yang hijau dan rapi."
+  },
+  {
+    "id": 28,
+    "image": "images/28.jpg",
+    "promptText": "Seorang pria Asia yang muda dan stylish berdiri di depan tembok grafiti di lingkungan perkotaan saat matahari terbenam. Ia mengenakan kaus putih bergambar grafiti hitam, hoodie abu-abu muda, celana kargo hitam, dan sepatu kets tebal berwarna hitam dan putih. Tangannya berada di saku celananya, dan ia melihat ke samping dengan ekspresi tenang. Gambar ini adalah bidikan potret seluruh tubuh, menampilkan fashion jalanan dan suasana urban. Cahaya keemasan dari matahari terbenam menciptakan highlight pada rambut dan kulitnya, serta pada grafiti di latar belakang."
+  },
+  {
+    "id": 29,
+    "image": "images/29.jpg",
+    "promptText": "Seorang pria muda Asia duduk santai di sofa abu-abu, menghadap lurus ke kamera. Ia mengenakan kaus putih polos dan celana panjang hitam, serta sepatu Vans Old Skool hitam putih. Kaki kanannya menyilang di atas kaki kirinya, dengan sepatu kanannya bertumpu pada lutut kiri. Lengan kirinya sedikit tertekuk, dengan tangan kirinya memegang pahanya. Lengan kanannya diletakkan di sandaran sofa. Ekspresi wajahnya netral. Rambutnya hitam dan rapi. Latar belakang ruangan adalah dinding putih polos. Di sebelah kanan, sebagian bendera hitam bertuliskan JAKARTA berwarna putih terlihat. Lantainya berwarna abu-abu gelap dengan tekstur kasar. Pencahayaan lembut dan alami, menciptakan bayangan tipis. Komposisi foto full-body, diambil dari sudut kamera sejajar mata (eye-level), fokus tajam, warna natural, detail realistis. dan posisi duduk orang nya berada di tengah sofa"
+  },
+  {
+    "id": 30,
+    "image": "images/30.jpg",
+    "promptText": "A young man in a dark olive green t-shirt, black cargo pants, and black and white sneakers is walking with a coffee cup in his left hand. He is also wearing a black baseball cap with GT in white letters on the front and a silver chain around his neck. A black backpack is visible on his back. He has short dark hair and a serious expression. The background is a dark, reflective surface, possibly a window or a polished wall, with a faint reflection of a person behind him. The lighting is bright, highlighting the man and his attire."
+  },
+  {
+    "id": 31,
+    "image": "images/31.jpg",
+    "promptText": "Sebuah potret setengah badan nampak sampai celana sedikit. seorang pria muda dengan rambut hitam, berdiri di luar dengan latar belakang langit senja berwarna ungu dan oranye yang dramatis. Dia melihat ke atas dan ke kanan, dengan ekspresi berpikir. Dia mengenakan kaus putih dengan cetakan grafis berwarna-warni dan celana gelap. Latar belakang menunjukkan siluet kota yang kabur di bawah langit yang cerah. Pencahayaan lembut, menonjolkan fitur wajahnya dan detail pakaiannya."
+  },
+  {
+    "id": 32,
+    "image": "images/32.jpg",
+    "promptText": "Full shot of a young man, 20s, with short black hair and a slight mustache, walking out of a modern building with glass doors. He is wearing a black t-shirt, black cargo pants, and black and white sneakers. He is holding a phone to his right ear as if on a call, and a clear plastic water bottle in his left hand. His expression is neutral, and he is looking directly at the camera. The background shows the entrance of the building, which appears to be a cafe or store, with dark interior visible. The lighting is overcast or diffused, creating a soft, even light."
+  },
+  {
+    "id": 33,
+    "image": "images/33.jpg",
+    "promptText": "Seorang pria Asia berambut gelap, mengenakan hoodie hitam polos, celana panjang abu-abu, dan sepatu sneakers merk nike putih. mobil menghadap ke kamera dan terlihat mobil bagian depan. Dia bersandar dengan santai di bagian depan sisi kanan mobil Jeep Wrangler Rubicon berwarna oranye cerah. Mobilnya memiliki plat nomor Indonesia dengan tulisan 'B 12 OMO'. Latar belakangnya adalah pemandangan pegunungan yang megah dengan gunung berapi yang tertutup awan atau kabut tipis di kejauhan. Langit di atasnya sebagian berawan, dan tanahnya tampak kering dan berdebu. Suasana gambar adalah petualangan dan ketenangan, dengan pencahayaan alami yang lembut menonjolkan detail pria dan mobil."
   }
   
 ];
