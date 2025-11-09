@@ -165,6 +165,16 @@ const defaultGalleryData = [
     "id": 33,
     "image": "images/33.jpg",
     "promptText": "Seorang pria Asia berambut gelap, mengenakan hoodie hitam polos, celana panjang abu-abu, dan sepatu sneakers merk nike putih. mobil menghadap ke kamera dan terlihat mobil bagian depan. Dia bersandar dengan santai di bagian depan sisi kanan mobil Jeep Wrangler Rubicon berwarna oranye cerah. Mobilnya memiliki plat nomor Indonesia dengan tulisan 'B 12 OMO'. Latar belakangnya adalah pemandangan pegunungan yang megah dengan gunung berapi yang tertutup awan atau kabut tipis di kejauhan. Langit di atasnya sebagian berawan, dan tanahnya tampak kering dan berdebu. Suasana gambar adalah petualangan dan ketenangan, dengan pencahayaan alami yang lembut menonjolkan detail pria dan mobil."
+  },
+  {
+    "id": 34,
+    "image": "images/34.jpg",
+    "promptText": "Seorang pria berdiri di pinggir sisi kiri mobil dekat lampu bagian depan, menghadap langsung ke arah kamera dengan senyum tipis dan percaya diri. Dia memiliki rambut pendek berwarna gelap dan mengenakan kaos hijau gelap di bawah jaket zip-up abu-abu dan hitam. Tangannya santai dimasukkan ke dalam saku celana gelapnya, dan dia mengenakan sepatu kets putih nike. Di lehernya, sebuah rantai tipis terlihat. Honda Civic Type R berwarna putih, dengan desain sporty dan lencana Honda merah, diparkir di jalan di belakangnya menghadap kamera. Lampu depan mobil mati, tetapi garis-garisnya yang ramping diterangi oleh lampu kota di sekitarnya. Plat nomor, yang sebagian terlihat, bertuliskan BM 805 MHA . Roda mobil berwarna perunggu atau emas, menambahkan sentuhan kustom. Latar belakang adalah blur yang hidup dari jalan kota jakarta di malam hari. Garis-garis cahaya terang dari kendaraan yang lewat menunjukkan gerakan dan aktivitas. Di kejauhan, beberapa bangunan dengan jendela yang menyala terlihat, dan lampu jalan memancarkan cahaya lembut. Suasana keseluruhan adalah urban dan keren, dengan fokus pada pria dan mobilnya yang khas. dan posisi mobil dan objek orangnya berada dibahu jalan. buat terlihat sedikit jauh agar objek orang dan mobil terlihat jelas dan lengkap"
+  },
+  {
+    "id": 35,
+    "image": "images/35.jpg",
+    "promptText": "Buatkan foto seorang pemuda berswafoto saat mendaki di jalur sempit di tebing berpagar kayu, tanpa mengubah wajah menghadap formasi batuan ikonis berbentuk T-Rex di Pantai Kelingking, Nusa Penida, Bali. Pria mengenakan kemeja putih longgar dan celana pendek putih dengan sandal krem dan kacamata hitam, senyuman manis di bawah sinar matahari keemasan. Laut di latar belakang berwarna biru tua dengan ombak yang menghantam tebing. Vegetasi hijau rimbun mengelilingi jalur. Perspektif swafoto sudut lebar, sudut tinggi, komposisi lengan terentang. Pencahayaan alami yang hangat, bayangan lembut, cahaya keemasan, warna cerah, tekstur realistis, gaya fotografi perjalanan."
   }
   
 ];
