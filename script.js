@@ -175,7 +175,39 @@ const defaultGalleryData = [
     "id": 35,
     "image": "images/35.jpg",
     "promptText": "Buatkan foto seorang pemuda berswafoto saat mendaki di jalur sempit di tebing berpagar kayu, tanpa mengubah wajah menghadap formasi batuan ikonis berbentuk T-Rex di Pantai Kelingking, Nusa Penida, Bali. Pria mengenakan kemeja putih longgar dan celana pendek putih dengan sandal krem dan kacamata hitam, senyuman manis di bawah sinar matahari keemasan. Laut di latar belakang berwarna biru tua dengan ombak yang menghantam tebing. Vegetasi hijau rimbun mengelilingi jalur. Perspektif swafoto sudut lebar, sudut tinggi, komposisi lengan terentang. Pencahayaan alami yang hangat, bayangan lembut, cahaya keemasan, warna cerah, tekstur realistis, gaya fotografi perjalanan."
+  },
+  {
+    "id": 36,
+    "image": "images/36.jpg",
+    "promptText": "ultra-realistic portrait of a young man (see preference photo) leaning casually against a stone wall in a modern urban outdoor setting during golden sunset. he stands with one leg bent, both hands in his pants pockets, looking confidently at the camera. he wears a white long-sleeve shirt with the sleeves rolled up, beige cargo pants, gray sport shoes, and a black wristwatch. he also wears a black sunglass. warm sunlight flares directly behind him, casting a soft golden glow on his face and creating realistic lens flares and contrast between light and shadow. the background shows modern glass buildings with reflections of sunset light. captured with a professional full-frame DSLR camera, 85mm lens, shallow depth of field, sharp focus on the subject, vivid warm tones, detailed textures, realistic shadows, and cinematic atmosphere. Angle: low-angle mid-shot, slightly from below, framing the subject from knees to head. Aspect ratio: 3:4 portrait Lighting: natural golden sunset backlight with warm highlights and soft rim light."
+  },
+  {
+    "id": 37,
+    "image": "images/37.jpg",
+    "promptText": "A realistic, high-resolution photo of a stylish young man in business-casual attire (button-up shirt, slacks, and a watch), inside a modern Kopi Kenangan café. He wears a Ray-Ban sunglasses. He is standing at the counter, holding a phone and a takeaway coffee cup in the other. The background shows warm, ambient lighting, wooden textures, the Kopi Kenangan logo on the wall, and soft-focus baristas preparing drinks. The man is looking at menu with a natural, relaxed expression. Captured with a professional DSLR camera, 50mm lens, shallow depth of field, editorial style, natural lighting from large café windows."
+  },
+  {
+    "id": 38,
+    "image": "images/38.jpg",
+    "promptText": "Seorang pria Asia dengan rambut hitam pendek dan kacamata berbingkai, mengenakan jaket varsity hitam dan putih dengan huruf 'H' besar di dada kiri, sedang duduk di dekat jendela di dalam Kopi Kenangan. Ia memegang cangkir Kopi Kenangan putih dengan sedotan hijau dan sedang minum. Refleksinya terlihat di jendela di sampingnya. Di latar belakang, melalui jendela, terlihat pemandangan luar yang agak buram, dan di dalam kafe, beberapa orang lain terlihat buram. Sebuah smartphone Iphone 17 pro max kamera 3 terbaru warna orange diletakkan di meja kayu di depannya. Pencahayaan lembut dan alami datang dari jendela."
+  },
+  {
+    "id": 39,
+    "image": "images/39.jpg",
+    "promptText": "Seorang pria muda Asia mengenakan hoodie nike putih, celana jins hitam, dan sepatu kets putih sedang duduk kaki diangkat 1 ke kaki sebelahnya di kafe malam hari, dengan minuman es dan kue di atas meja di depannya. Dia melihat langsung ke kamera dengan ekspresi netral. Latar belakang menunjukkan bangunan kafe dengan tulisan de'caffé yang menyala, payung teras, dan orang-orang yang duduk di meja lain. Pencahayaan lembut dan hangat."
+  },
+  {
+    "id": 40,
+    "image": "images/40.jpg",
+    "promptText": "Foto ultra-realistis seorang pria muda berjalan dengan percaya diri melalui terminal bandara terminal 3 jakarta modern, mengenakan hoodie Nike hitam, celana panjang jins atletik hitam, dan sepatu Nike kets putih. Dia memiliki ransel hitam dan kacamata kekinian, menarik koper hard-shell perak dengan satu tangan sambil memegang tas duffel hitam mewah di atasnya. Latar belakang menunjukkan para pelancong dan sinar matahari yang masuk melalui jendela kaca besar, memberikan cahaya alami yang hangat. Adegan ini menangkap suasana perjalanan yang stylish dan kasual dengan pencahayaan sinematik dan depth of field yang lembut, bergaya editorial mode."
   }
+  ,
+  {
+    "id": 41,
+    "image": "images/41.jpg",
+    "promptText": "Seorang pria muda Asia berada ditangga melangkah turun dari pesawat jet pribadi, dengan latar belakang langit biru cerah dan landasan pacu. Dia mengenakan pakaian serba putih yang stylish: kaos oversized putih, celana panjang putih, dan sepasang sepatu sneakers nike high-top putih dengan aksen merah yang mencolok. Ia juga memakai kacamata hitam yang bergaya. Di tangan kirinya, ia memegang smartphone iphone terbaru warna orange. Sementara itu, di tangan kirinya, ia membawa tas duffel berwarna merah cerah."
+  }
+  
   
 ];
 
