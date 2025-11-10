@@ -251,8 +251,6 @@ const defaultGalleryData = [
     "image": "images/50.jpg",
     "promptText": "Seorang pemuda duduk penuh kemenangan di puncak gunung yang terjal, memegang bendera merah putih dan benderanya berkibar. Dia mengenakan hoodie hitam dan jins panjang hitam, dengan sepatu nike putih dengan logo nike hitam. Pria itu memiliki rambut hitam rapi sesuai dengan gambar ini dan tersenyum ke arah kamera. Latar belakangnya adalah pemandangan panorama pegunungan berkabut yang menakjubkan membentang jauh di bawah langit yang sebagian berawan, menunjukkan lanskap alam yang tenang dan luas. Pencahayaan tampak seperti siang hari alami, memberikan cahaya lembut pada pemandangan. posisi pose fotonya duduknya berada diatas tebing tinggi dibawahnya jurang"
   }
-  
-  
 ];
 
 // Fungsi untuk MEMBACA data dari localStorage
@@ -542,6 +540,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeDetailModalBtn = document.getElementById('close-detail-modal');
     const detailModalImage = document.getElementById('detail-modal-image');
     const detailModalPrompt = document.getElementById('detail-modal-prompt');
+    
+    // --- INI ADALAH SELEKTOR BARU ---
+    const detailCopyBtn = document.getElementById('detail-copy-btn');
+    const detailGeminiBtn = document.getElementById('detail-gemini-btn');
+    const detailChatGptBtn = document.getElementById('detail-chatgpt-btn');
 
     // Ambil Elemen Kontrol Galeri
     const searchBar = document.getElementById('search-bar');
@@ -688,6 +691,53 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // --- INI ADALAH BLOK LISTENER BARU ---
+    // --- Logika untuk Tombol Aksi di Modal Detail ---
+
+    // 1. Tombol Salin di Modal Detail
+    detailCopyBtn.addEventListener('click', () => {
+        const promptText = detailModalPrompt.textContent;
+        navigator.clipboard.writeText(promptText).then(() => {
+            // Beri umpan balik visual
+            const originalText = detailCopyBtn.textContent;
+            detailCopyBtn.textContent = 'Tersalin!';
+            detailCopyBtn.classList.add('copied'); // Gunakan style 'copied'
+            setTimeout(() => {
+                detailCopyBtn.textContent = originalText;
+                detailCopyBtn.classList.remove('copied');
+            }, 2000);
+        }).catch(err => {
+            console.error('Gagal menyalin:', err);
+            showNotification('Gagal menyalin ke clipboard.', 'error');
+        });
+    });
+
+    // 2. Tombol Buka di Gemini
+    detailGeminiBtn.addEventListener('click', () => {
+        const promptText = detailModalPrompt.textContent;
+        // Encode teks agar aman digunakan di URL
+        const encodedPrompt = encodeURIComponent(promptText);
+        // Buka tab baru ke Gemini dengan prompt di query URL
+        window.open(`https://gemini.google.com/app?q=${encodedPrompt}`, '_blank');
+    });
+
+    // 3. Tombol Buka di ChatGPT
+    detailChatGptBtn.addEventListener('click', () => {
+        const promptText = detailModalPrompt.textContent;
+        
+        // ChatGPT tidak mendukung query URL seperti Gemini.
+        // Solusi terbaik: Salin teks ke clipboard, lalu buka situsnya.
+        navigator.clipboard.writeText(promptText).then(() => {
+            // Gunakan notifikasi yang sudah Anda buat!
+            showNotification('Prompt disalin! Silakan paste di ChatGPT.', 'success');
+            window.open('https://chat.openai.com/', '_blank');
+        }).catch(err => {
+            console.error('Gagal menyalin:', err);
+            showNotification('Gagal menyalin, buka ChatGPT secara manual.', 'error');
+            window.open('https://chat.openai.com/', '_blank');
+        });
+    });
+    
 
     // --- FITUR Event Delegation (Salin, Lightbox, Edit, Detail, Hapus) ---
     galleryContainer.addEventListener('click', (e) => {

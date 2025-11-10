@@ -150,16 +150,16 @@ header h1 { font-weight: 700; color: var(--header-color); font-size: 2.5rem; mar
     box-shadow: 0 12px 24px var(--card-shadow-hover);
 }
 .gallery-item img {
-    width: 100%;
-    /* Hapus atau komentari baris height: 300px; */
-    /* height: 300px; */ 
+    width: 100%;
+    /* Hapus atau komentari baris height: 300px; */
+    /* height: 300px; */ 
 
-    aspect-ratio: 864 / 1184; /* <-- TAMBAHKAN BARIS INI */
-    
-    object-fit: cover;
-    display: block;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
+    aspect-ratio: 864 / 1184; /* <-- TAMBAHKAN BARIS INI */
+    
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
 }
 .gallery-item img:hover { opacity: 0.85; }
 .gallery-item .prompt-description {
@@ -244,7 +244,7 @@ header h1 { font-weight: 700; color: var(--header-color); font-size: 2.5rem; mar
     width: 150px; /* Gambar kecil di kiri */
     height: 150px;
     cursor: default; /* Tidak perlu zoom di list view */
-	object-fit: contain;
+    object-fit: contain;
 }
 .list-view .gallery-item img:hover {
     opacity: 1; /* Matikan efek hover */
@@ -545,7 +545,7 @@ body.dark-mode .detail-modal-content .close-btn {
     opacity: 0;
     transform: translateX(100%);
     animation: slideInFromRight 0.4s ease-out forwards, 
-               slideOutToRight 0.4s ease-in 2.6s forwards;
+             slideOutToRight 0.4s ease-in 2.6s forwards;
 }
 
 /* Style untuk notifikasi error */
@@ -700,4 +700,79 @@ footer .copyright a strong {
 /* Saat link di-hover, ubah warna teks <strong> di dalamnya */
 footer .copyright a:hover strong {
     color: var(--btn-bg); /* Menggunakan warna aksen biru Anda */
+}
+
+
+/* --- INI ADALAH STYLE BARU YANG DITAMBAHKAN --- */
+/* --- Penataan Tombol Aksi di Modal Detail --- */
+.detail-actions {
+    display: flex;
+    flex-wrap: wrap; /* Membungkus jika tidak muat */
+    gap: 10px;
+    margin-top: 20px; /* Jarak dari teks prompt di atas */
+    padding-top: 15px; /* Garis pemisah */
+    border-top: 1px solid var(--input-border);
+}
+
+/* * Menggunakan kembali style .copy-btn yang sudah ada, 
+ * tapi kita buat lebih fleksibel 
+ */
+.detail-actions .copy-btn {
+    flex-grow: 1; /* Biarkan tombol copy mengambil ruang */
+    min-width: 150px; /* Lebar minimum */
+    margin-top: 0; /* Reset margin */
+}
+
+/* Style dasar untuk tombol AI */
+.btn-ai {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex-grow: 1;
+    min-width: 150px; /* Lebar minimum */
+    text-align: center;
+}
+
+/* Warna spesifik untuk Gemini */
+.btn-ai.gemini {
+    background-color: #E8F0FE; /* Biru muda Gemini */
+    color: #1967D2; /* Biru tua Gemini */
+    border: 1px solid #D2E3FC;
+}
+.btn-ai.gemini:hover {
+    background-color: #D2E3FC;
+}
+
+/* Warna spesifik untuk ChatGPT */
+.btn-ai.chatgpt {
+    background-color: #74AA9C; /* Hijau ChatGPT */
+    color: #ffffff;
+    border: 1px solid #689a8d;
+}
+.btn-ai.chatgpt:hover {
+    background-color: #689a8d;
+}
+
+/* Penyesuaian Dark Mode */
+body.dark-mode .btn-ai.gemini {
+    background-color: #3B4043; /* Latar belakang gelap */
+    color: #AECBFA; /* Teks biru muda */
+    border: 1px solid #5F6368;
+}
+body.dark-mode .btn-ai.gemini:hover {
+    background-color: #4A4E51;
+}
+
+body.dark-mode .btn-ai.chatgpt {
+    background-color: #4E6B64;
+    color: #E3E3E3;
+    border: 1px solid #5A7C73;
+}
+body.dark-mode .btn-ai.chatgpt:hover {
+    background-color: #5A7C73;
 }
