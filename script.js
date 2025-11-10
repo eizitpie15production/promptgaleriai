@@ -200,12 +200,56 @@ const defaultGalleryData = [
     "id": 40,
     "image": "images/40.jpg",
     "promptText": "Foto ultra-realistis seorang pria muda berjalan dengan percaya diri melalui terminal bandara terminal 3 jakarta modern, mengenakan hoodie Nike hitam, celana panjang jins atletik hitam, dan sepatu Nike kets putih. Dia memiliki ransel hitam dan kacamata kekinian, menarik koper hard-shell perak dengan satu tangan sambil memegang tas duffel hitam mewah di atasnya. Latar belakang menunjukkan para pelancong dan sinar matahari yang masuk melalui jendela kaca besar, memberikan cahaya alami yang hangat. Adegan ini menangkap suasana perjalanan yang stylish dan kasual dengan pencahayaan sinematik dan depth of field yang lembut, bergaya editorial mode."
-  }
-  ,
+  },
   {
     "id": 41,
     "image": "images/41.jpg",
     "promptText": "Seorang pria muda Asia berada ditangga melangkah turun dari pesawat jet pribadi, dengan latar belakang langit biru cerah dan landasan pacu. Dia mengenakan pakaian serba putih yang stylish: kaos oversized putih, celana panjang putih, dan sepasang sepatu sneakers nike high-top putih dengan aksen merah yang mencolok. Ia juga memakai kacamata hitam yang bergaya. Di tangan kirinya, ia memegang smartphone iphone terbaru warna orange. Sementara itu, di tangan kirinya, ia membawa tas duffel berwarna merah cerah."
+  },
+  {
+    "id": 42,
+    "image": "images/42.jpg",
+    "promptText": "Seorang pria berdiri di dalam terowongan bawah air di sebuah akuarium. Dia mengenakan hoodie putih, celana hitam, dan sepatu jordan retro 4 oreo. Di tangan kirinya memegang cangkir kopi kenangan terlihat natural, dan tangan kanannya masuk saku celana dan terlihat menggunakan jam tangan dan di lehernya tergantung kamera dengan tali kecil. Dia tersenyum dan melihat ke arah penonton. Terowongan ini diterangi oleh lampu-lampu gantung di langit-langit, menciptakan cahaya hangat. Ikan-ikan berenang di air di kedua sisi terowongan. dengan pose keren dengan kaki menyila menghadap penonton."
+  },
+  {
+    "id": 43,
+    "image": "images/43.jpg",
+    "promptText": "Seorang pria muda Asia mengenakan kaus hitam oversized dengan tulisan 'MHA Production' berwarna putih di bagian dada, celana kargo hitam, dan sepatu sneakers nike putih dan logo nikenya warna hitam. Dia mengenakan kacamata hitam, memegang gelas kopi take-away di tangan kirinya, dan tangan kanannya dimasukkan ke dalam saku celana. Dia bersandar santai ke dinding kaca sebuah bangunan tinggi. Pencahayaan adalah golden hour saat matahari terbenam. Latar belakang menunjukkan pemandangan kota saat senja dengan gedung-gedung tinggi yang sebagian buram dan jalanan yang lengang. Suasana keseluruhan terasa urban, stylish, dan sedikit melankolis. orang tersebut menghadap kamera dan disamping kirinya menciptakan pantulan hangat pada bangunan dan jalan. Refleksi dirinya terlihat jelas di dinding kaca, namun tulisan di kausnya terbalik."
+  },
+  {
+    "id": 44,
+    "image": "images/44.jpg",
+    "promptText": "Profil samping seluruh tubuh sinematik dengan sudut rendah dari seorang pemuda (foto diunggah) berjalan ke dalam ombak laut setinggi lutut saat golden hour sedikit melihat kamera, bidikan vertikal ultra-lebar, mengenakan kemeja longgar bergaris putih dan biru dengan kerah terbuka serta celana pendek hitam, kain semi-transparan yang basah menangkap sinar matahari, santai dengan tangan di saku, kacamata hitam Wayfarer gelap, rambut sedikit acak tetapi bentuk rambut seperti gambar ini yang lembap berkilau dengan cahaya, busa detail dan pantulan pasir basah. Cahaya tepi keemasan, air tenang, langit biru pastel dengan awan lembut, suasana nostalgia yang damai, pencahayaan dan tekstur ultra-realistis, nada filmik, bayangan dalam dan warna hangat."
+  },
+  {
+    "id": 45,
+    "image": "images/45.jpg",
+    "promptText": "used the image I uploaded and kept the original. A very handsome young man is reading a book quietly while leaning against the roots of a large, shady tree on a rocky shore. He is wearing a white shirt, white pants, and white shoes. He is looking towards the camera. In the background is a vast, calm blue lake or lagoon with the sky reflected, and a large, lush green volcano towering above the water. The scene is framed by vibrant green foliage and has a bright atmosphere with a dynamic cloudy sky. The lighting is golden hour style, high-detail, photorealistic, a la National Geographic. 9:16."
+  },
+  {
+    "id": 46,
+    "image": "images/46.jpg",
+    "promptText": "Ultra-realistic outdoor portrait of a young man with a naturally soft face and dark hair, sitting on a fallen tree trunk in a peaceful forest near a small stream. The reference image is the same face. He is wearing a red t-shirt with a cute panda pattern on the chest, long white cargo pants, and red sneakers. A watch is on his wrist. Next to him, a real giant panda sits comfortably on the same log, holding bamboo and eating it. The panda looks friendly and natural. 9:16."
+  },
+  {
+    "id": 47,
+    "image": "images/47.jpg",
+    "promptText": "Hyper realistic, Edit foto ini dengan 100% tanpa merubah bentuk dan detail wajah aslinya, seorang pria muda tampan dengan kulit putih dan cerah sedang duduk di pohon tumbang yang sudah kering. Ia memakai sweter hitam hodi, celana cream panjang, sepatu putih running keren. Latar belakang sebuah kali besar , pohon-pohon hijau , bukit hijau yang jelas dan besar, di samping ada batu besar , foto sore hari matahari terbenam langit orange ke emasan, mega hitam, foto cinematic blur dikit."
+  },
+  {
+    "id": 48,
+    "image": "images/48.jpg",
+    "promptText": "Hyper-realistic low-angle shot of a young man (25-28) sitting on the edge of a wooden bridge over a calm forest stream at sunrise. Turning towards the camera. Wearing a light jacket, jogger pants, and sneakers. Reflection in the water, golden mist, birds flying in the distance. Shallow depth, soft bokeh, cinematic tone, 8K detail. 9:16."
+  },
+  {
+    "id": 49,
+    "image": "images/49.jpg",
+    "promptText": "Seorang pria Asia muda dengan senyum ramah dan rambut hitam pendek, mengenakan kaus putih polos dan celana jins hitam, duduk di atas batu besar di tengah sungai yang jernih. Kaki kanannya terendam air sungai. Di sampingnya, seekor bayi gajah abu-abu yang lucu sedang bermain air, menyemprotkan air ke atas dengan belalainya, menciptakan percikan air yang indah. Latar belakang gambar adalah hutan tropis yang rimbun dengan pepohonan hijau yang tinggi, menciptakan suasana alami dan damai. Cahaya matahari menembus dedaunan, menciptakan efek bokeh yang lembut dan hangat. Komposisi gambar menampilkan interaksi yang harmonis antara manusia dan hewan di alam."
+  },
+  {
+    "id": 50,
+    "image": "images/50.jpg",
+    "promptText": "Seorang pemuda duduk penuh kemenangan di puncak gunung yang terjal, memegang bendera merah putih dan benderanya berkibar. Dia mengenakan hoodie hitam dan jins panjang hitam, dengan sepatu nike putih dengan logo nike hitam. Pria itu memiliki rambut hitam rapi sesuai dengan gambar ini dan tersenyum ke arah kamera. Latar belakangnya adalah pemandangan panorama pegunungan berkabut yang menakjubkan membentang jauh di bawah langit yang sebagian berawan, menunjukkan lanskap alam yang tenang dan luas. Pencahayaan tampak seperti siang hari alami, memberikan cahaya lembut pada pemandangan. posisi pose fotonya duduknya berada diatas tebing tinggi dibawahnya jurang"
   }
   
   
