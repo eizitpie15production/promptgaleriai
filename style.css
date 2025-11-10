@@ -805,3 +805,65 @@ body.nature-mode header h1 {
         text-shadow: 0 0 4px #fff, 0 0 10px var(--btn-bg), 0 0 20px var(--btn-bg);
     }
 }
+
+/* --- TAMBAHKAN BLOK INI DI AKHIR style.css --- */
+
+/* Menghapus garis bawah dari link <a> yang kita jadikan tombol */
+a.btn-ai {
+    text-decoration: none;
+    line-height: 1.5; /* Menyamakan tinggi baris dengan tombol lain */
+}
+
+/* Warna spesifik untuk Remaker (Ungu) */
+.btn-ai.remaker {
+    background-color: #F3E8FF; /* Ungu muda */
+    color: #7B1FA2; /* Ungu tua */
+    border: 1px solid #E1BEE7;
+}
+.btn-ai.remaker:hover {
+    background-color: #E1BEE7;
+}
+
+/* Warna spesifik untuk ImgUpscaler (Biru/Teal) */
+.btn-ai.imgupscaler {
+    background-color: #E0F7FA; /* Biru muda */
+    color: #00796B; /* Teal tua */
+    border: 1px solid #B2EBF2;
+}
+.btn-ai.imgupscaler:hover {
+    background-color: #B2EBF2;
+}
+
+/* --- Penyesuaian Dark Mode --- */
+body.dark-mode .btn-ai.remaker {
+    background-color: #4A148C; /* Ungu gelap */
+    color: #E1BEE7; /* Ungu muda */
+    border: 1px solid #7B1FA2;
+}
+body.dark-mode .btn-ai.remaker:hover {
+    background-color: #5A249A;
+}
+
+body.dark-mode .btn-ai.imgupscaler {
+    background-color: #004D40; /* Teal gelap */
+    color: #B2EBF2; /* Biru muda */
+    border: 1px solid #00796B;
+}
+body.dark-mode .btn-ai.imgupscaler:hover {
+    background-color: #005A4D;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.quick-links .btn-ai {
+    flex-basis: 0;
+    flex-grow: 1;
+}

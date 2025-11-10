@@ -693,7 +693,7 @@ document.addEventListener('DOMContentLoaded', () => {
     detailGeminiBtn.addEventListener('click', () => {
         const promptText = detailModalPrompt.textContent;
         const encodedPrompt = encodeURIComponent(promptText);
-        window.open(`https://gemini.google.com/app?q=${encodedPrompt}`, '_blank');
+        window.open(`https://gemini.google.com/app? q=${encodedPrompt}`, '_blank');
     });
 
     detailChatGptBtn.addEventListener('click', () => {
