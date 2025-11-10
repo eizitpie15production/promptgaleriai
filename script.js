@@ -446,11 +446,6 @@ function toBase64(file) {
 }
 
 // --- Fungsi Notifikasi Toast (Versi 2.0) ---
-/**
- * Menampilkan notifikasi toast yang lebih baik
- * @param {string} message Pesan yang ingin ditampilkan
- * @param {'success' | 'error'} type Tipe notifikasi
- */
 function showNotification(message, type = 'success') {
     // 1. Buat Elemen Utama
     const notification = document.createElement('div');
@@ -494,9 +489,7 @@ function showNotification(message, type = 'success') {
     document.body.appendChild(notification);
 
     // 8. Atur auto-remove setelah animasi selesai
-    // (Durasi animasi: 0.4s masuk + 2.6s tunggu + 0.4s keluar = 3.4s)
     setTimeout(() => {
-        // Cek jika elemennya masih ada (belum ditutup manual)
         if (notification.parentElement) {
             notification.remove();
         }
@@ -512,7 +505,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Ambil preferensi tampilan
     currentView = localStorage.getItem('galleryViewMode') || 'grid';
     
-    // 1. Muat galeri secara dinamis (fungsi ini sekarang melakukan semuanya)
+    // 1. Muat galeri secara dinamis
     loadGallery();
 
     // 2. Ambil elemen-elemen statis
@@ -523,8 +516,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const darkModeToggle = document.getElementById('dark-mode-toggle');
     const body = document.body;
     const galleryContainer = document.querySelector('.gallery-container');
-
-    // Ambil Elemen Form Tambah/Edit
     const addPromptBtn = document.getElementById('add-prompt-btn');
     const addModal = document.getElementById('add-modal');
     const modalTitle = document.getElementById('modal-title');
@@ -534,19 +525,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const promptImageInput = document.getElementById('prompt-image');
     const promptTextInput = document.getElementById('prompt-text-input');
     const editPromptIdInput = document.getElementById('edit-prompt-id');
-
-    // Ambil Elemen Modal Detail
     const detailModal = document.getElementById('detail-modal');
     const closeDetailModalBtn = document.getElementById('close-detail-modal');
     const detailModalImage = document.getElementById('detail-modal-image');
     const detailModalPrompt = document.getElementById('detail-modal-prompt');
-    
-    // --- INI ADALAH SELEKTOR BARU ---
     const detailCopyBtn = document.getElementById('detail-copy-btn');
     const detailGeminiBtn = document.getElementById('detail-gemini-btn');
     const detailChatGptBtn = document.getElementById('detail-chatgpt-btn');
-
-    // Ambil Elemen Kontrol Galeri
     const searchBar = document.getElementById('search-bar');
     const sortSelect = document.getElementById('sort-select');
     const gridViewBtn = document.getElementById('grid-view-btn');
@@ -554,8 +539,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const exportBtn = document.getElementById('export-btn');
     const importBtn = document.getElementById('import-btn');
     const importFileInput = document.getElementById('import-file-input');
-
-    // --- BARU: Ambil Elemen Modal Konfirmasi Hapus ---
     const confirmModal = document.getElementById('confirm-modal');
     const confirmMessage = document.getElementById('confirm-message');
     const confirmYesBtn = document.getElementById('confirm-yes-btn');
@@ -564,13 +547,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Listener untuk Kontrol Galeri ---
     searchBar.addEventListener('input', () => {
-        currentPage = 1; // Reset ke halaman 1 setiap kali mencari
+        currentPage = 1; 
         loadGallery();
     });
     
     sortSelect.addEventListener('change', (e) => {
         currentSort = e.target.value;
-        currentPage = 1; // Reset ke halaman 1
+        currentPage = 1; 
         loadGallery();
     });
 
@@ -619,10 +602,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === detailModal) { closeDetailModal(); }
     });
 
-    // --- BARU: Fungsi Buka/Tutup Modal Konfirmasi Hapus ---
+    // --- Fungsi Buka/Tutup Modal Konfirmasi Hapus ---
     const closeConfirmModal = () => {
         confirmModal.style.display = 'none';
-        delete confirmYesBtn.dataset.deleteId; // Hapus ID saat modal ditutup
+        delete confirmYesBtn.dataset.deleteId; 
     };
     confirmNoBtn.addEventListener('click', closeConfirmModal);
     confirmModal.addEventListener('click', (e) => {
@@ -641,7 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const text = promptTextInput.value.trim();
             const editId = editPromptIdInput.value; 
             const file = promptImageInput.files[0];
-            let currentData = getGalleryData(); // Ambil data terbaru
+            let currentData = getGalleryData(); 
 
             if (editId) {
                 // LOGIKA EDIT
@@ -653,12 +636,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 currentData[itemIndex].promptText = text;
                 saveGalleryData(currentData); 
-                showNotification('Prompt berhasil diperbarui!'); // NOTIFIKASI EDIT
+                showNotification('Prompt berhasil diperbarui!');
 
             } else {
                 // LOGIKA TAMBAH
                 if (!file) {
-                    showNotification('Anda harus memilih file gambar!', 'error'); // NOTIFIKASI
+                    showNotification('Anda harus memilih file gambar!', 'error');
                     throw new Error('Tidak ada file dipilih');
                 }
                 const imageBase64 = await toBase64(file); 
@@ -669,9 +652,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
                 currentData.push(newPrompt);
                 saveGalleryData(currentData);
-                showNotification('Prompt baru berhasil ditambahkan!'); // NOTIFIKASI TAMBAH
+                showNotification('Prompt baru berhasil ditambahkan!');
                 
-                // Saat menambah, pergi ke halaman 1 & sortir terbaru
                 currentPage = 1;
                 currentSort = 'newest';
                 sortSelect.value = 'newest';
@@ -683,7 +665,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('Gagal menyimpan:', error);
             if (error.message !== 'Tidak ada file dipilih') {
-                showNotification('Gagal menyimpan prompt. Silakan coba lagi.', 'error'); // NOTIFIKASI
+                showNotification('Gagal menyimpan prompt. Silakan coba lagi.', 'error');
             }
         } finally {
             saveButton.disabled = false;
@@ -691,17 +673,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- INI ADALAH BLOK LISTENER BARU ---
     // --- Logika untuk Tombol Aksi di Modal Detail ---
-
-    // 1. Tombol Salin di Modal Detail
     detailCopyBtn.addEventListener('click', () => {
         const promptText = detailModalPrompt.textContent;
         navigator.clipboard.writeText(promptText).then(() => {
-            // Beri umpan balik visual
             const originalText = detailCopyBtn.textContent;
             detailCopyBtn.textContent = 'Tersalin!';
-            detailCopyBtn.classList.add('copied'); // Gunakan style 'copied'
+            detailCopyBtn.classList.add('copied');
             setTimeout(() => {
                 detailCopyBtn.textContent = originalText;
                 detailCopyBtn.classList.remove('copied');
@@ -712,23 +690,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 2. Tombol Buka di Gemini
     detailGeminiBtn.addEventListener('click', () => {
         const promptText = detailModalPrompt.textContent;
-        // Encode teks agar aman digunakan di URL
         const encodedPrompt = encodeURIComponent(promptText);
-        // Buka tab baru ke Gemini dengan prompt di query URL
         window.open(`https://gemini.google.com/app?q=${encodedPrompt}`, '_blank');
     });
 
-    // 3. Tombol Buka di ChatGPT
     detailChatGptBtn.addEventListener('click', () => {
         const promptText = detailModalPrompt.textContent;
-        
-        // ChatGPT tidak mendukung query URL seperti Gemini.
-        // Solusi terbaik: Salin teks ke clipboard, lalu buka situsnya.
         navigator.clipboard.writeText(promptText).then(() => {
-            // Gunakan notifikasi yang sudah Anda buat!
             showNotification('Prompt disalin! Silakan paste di ChatGPT.', 'success');
             window.open('https://chat.openai.com/', '_blank');
         }).catch(err => {
@@ -743,7 +713,7 @@ document.addEventListener('DOMContentLoaded', () => {
     galleryContainer.addEventListener('click', (e) => {
         const clickedElement = e.target;
         const itemEl = clickedElement.closest('.gallery-item');
-        if (!itemEl) return; // Klik di luar item
+        if (!itemEl) return; 
 
         const id = parseInt(itemEl.dataset.id);
         const itemData = galleryData.find(item => item.id === id);
@@ -773,7 +743,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (clickedElement.classList.contains('edit-btn')) {
             modalTitle.textContent = 'Edit Prompt';
             editPromptIdInput.value = itemData.id;
-            promptImageInput.required = false; // Tidak wajib saat edit
+            promptImageInput.required = false; 
             promptTextInput.value = itemData.promptText;
             addModal.style.display = 'block';
         }
@@ -785,29 +755,23 @@ document.addEventListener('DOMContentLoaded', () => {
             detailModal.style.display = 'block';
         }
         
-        // --- DIMODIFIKASI: Aksi 5: Tombol Hapus ---
-        // Sekarang hanya menampilkan modal konfirmasi
+        // Aksi 5: Tombol Hapus (Menampilkan modal konfirmasi)
         if (clickedElement.classList.contains('delete-btn')) {
-            // Tampilkan pesan spesifik
             confirmMessage.textContent = `Anda yakin ingin menghapus prompt ${itemData.id}?\n\n"${itemData.promptText.substring(0, 50)}..."`;
-            // Simpan ID di tombol "Ya" agar bisa diakses nanti
             confirmYesBtn.dataset.deleteId = itemData.id;
-            // Tampilkan modal
             confirmModal.style.display = 'block';
         }
     });
     
-    // --- BARU: Listener untuk Tombol Konfirmasi Hapus ---
+    // --- Listener untuk Tombol Konfirmasi Hapus ---
     confirmYesBtn.addEventListener('click', () => {
-        // Ambil ID yang disimpan dari tombol
         const idToDelete = parseInt(confirmYesBtn.dataset.deleteId);
-        if (!idToDelete) return; // Tidak ada ID, jangan lakukan apa-apa
+        if (!idToDelete) return; 
 
-        // Ini adalah logika HAPUS yang kita pindahkan dari atas
         let currentData = getGalleryData();
         currentData = currentData.filter(item => item.id !== idToDelete);
         saveGalleryData(currentData);
-        showNotification('Prompt berhasil dihapus.'); // NOTIFIKASI HAPUS
+        showNotification('Prompt berhasil dihapus.'); 
         
         // Cek jika halaman saat ini jadi kosong
         const totalItems = currentData.filter(item => item.promptText.toLowerCase().includes(searchBar.value.toLowerCase().trim())).length;
@@ -816,8 +780,8 @@ document.addEventListener('DOMContentLoaded', () => {
             currentPage = totalPages;
         }
         
-        loadGallery(); // Muat ulang galeri
-        closeConfirmModal(); // Tutup modal setelah selesai
+        loadGallery(); 
+        closeConfirmModal(); 
     });
 
 
@@ -828,20 +792,43 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === modal) { closeModal(); }
     });
 
-    // --- FITUR Dark Mode ---
+    // --- FITUR TEMA (Siklus 3 Tema) ---
     const applyTheme = (theme) => {
+        body.classList.remove('dark-mode', 'nature-mode');
+        
         if (theme === 'dark') {
             body.classList.add('dark-mode');
-            darkModeToggle.textContent = '☀️';
-        } else {
-            body.classList.remove('dark-mode');
             darkModeToggle.textContent = '🌙';
+            darkModeToggle.title = 'Ganti Tema (Mode Gelap)';
+        } else if (theme === 'nature') {
+            body.classList.add('nature-mode');
+            darkModeToggle.textContent = '🍃';
+            darkModeToggle.title = 'Ganti Tema (Mode Alam)';
+        } else {
+            // 'light' adalah default
+            darkModeToggle.textContent = '☀️';
+            darkModeToggle.title = 'Ganti Tema (Mode Terang)';
         }
     };
+    
+    // Muat tema yang tersimpan
     const savedTheme = localStorage.getItem('theme') || 'light';
     applyTheme(savedTheme);
+
+    // Event listener untuk memutar siklus tema
     darkModeToggle.addEventListener('click', () => {
-        let newTheme = body.classList.contains('dark-mode') ? 'light' : 'dark';
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        let newTheme;
+
+        if (currentTheme === 'light') {
+            newTheme = 'dark';
+        } else if (currentTheme === 'dark') {
+            newTheme = 'nature';
+        } else {
+            // Jika 'nature', kembali ke 'light'
+            newTheme = 'light';
+        }
+        
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme);
     });
