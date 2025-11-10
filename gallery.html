@@ -20,14 +20,7 @@
             <a href="index.html" id="cover-btn" title="Kembali ke Cover">🏠</a>
         </div>
 		
-		<div class="quick-links">
-        <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" class="btn-ai gemini">Akses Gemini AI disini</a><-->
-        <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" class="btn-ai chatgpt">Akses ChatGPT disini</a><-->
-        <a href="https://remaker.ai/id/face-swap-free/" target="_blank" rel="noopener noreferrer" class="btn-ai remaker">Akses Fitur Ubah Wajah</a><-->
-        <a href="https://imgupscaler.com/" target="_blank" rel="noopener noreferrer" class="btn-ai imgupscaler">Akses Fitur Tambah Resolusi Foto</a>
-		</div>
-        
-        <div class="gallery-controls">
+		<div class="gallery-controls">
             <div class="control-group">
                 <label for="sort-select">Urutkan:</label>
                 <select id="sort-select">
@@ -41,14 +34,16 @@
                 <button id="grid-view-btn" class="view-toggle-btn active" title="Tampilan Grid">■</button>
                 <button id="list-view-btn" class="view-toggle-btn" title="Tampilan Daftar">☰</button>
             </div>
-            
-            <div class="control-group">
-                <label>Data:</label>
-                <button id="export-btn" class="data-btn">Export JSON</button>
-                <button id="import-btn" class="data-btn">Import JSON</button>
-                <input type="file" id="import-file-input" accept=".json" style="display: none;">
-            </div>
         </div>
+		
+		<div class="quick-links">
+        <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" class="btn-ai gemini">Akses Gemini AI disini</a><-->
+        <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" class="btn-ai chatgpt">Akses ChatGPT disini</a><-->
+        <a href="https://remaker.ai/id/face-swap-free/" target="_blank" rel="noopener noreferrer" class="btn-ai remaker">Akses Fitur Ubah Wajah</a><-->
+        <a href="https://imgupscaler.com/" target="_blank" rel="noopener noreferrer" class="btn-ai imgupscaler">Akses Fitur Tambah Resolusi Foto</a>
+		</div>
+        
+        
     </header>
 
     <div class="gallery-container"></div>
@@ -119,6 +114,15 @@
             </div>
         </div>
     </div>
+	
+	<div class="gallery-controls">
+			<div class="control-group">
+                <label>Data:</label>
+                <button id="export-btn" class="data-btn">Export JSON</button>
+                <button id="import-btn" class="data-btn">Import JSON</button>
+                <input type="file" id="import-file-input" accept=".json" style="display: none;">
+            </div>
+			</div>
 	
 <footer>
         <p class="tagline">Mengkurasi Visi Masa Depan.</p>
